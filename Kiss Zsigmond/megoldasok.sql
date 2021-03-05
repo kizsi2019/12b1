@@ -1,56 +1,51 @@
 -- A feladatok megoldására elkészített SQL parancsokat illessze be a feladat sorszáma után!
 
-
 -- 8. feladat:
-CREATE DATABASE konyvtarak
-  DEFAULT CHARACTER SET utf8 
+CREATE DATABASE kobanyavasut
+  DEFAULT CHARSET=utf8
   COLLATE utf8_hungarian_ci;
 
 -- 10. feladat:
-UPDATE megyek
-  SET megyeNev="Budapest"
-  WHERE megyeNev="BP";
+INSERT INTO allomasok
+  VALUES (16, "Dabas");
 
 -- 11. feladat:
-SELECT
-  konyvtarNev, irsz
-FROM
-  konyvtarak
-WHERE
-  konyvtarNev LIKE "%Szakkönyvtár%";
+UPDATE vonatok 
+  SET jaratTipus="sz"
+  WHERE jaratSzam=541;
 
 -- 12. feladat:
-SELECT
-  konyvtarNev, irsz, cim
+SELECT 
+  COUNT(jaratSzam) AS "járatok száma"
 FROM
-  konyvtarak
+  vonatok
 WHERE
-  irsz LIKE "1%"
-ORDER BY
-  irsz ASC;
+  jaratTipus="zó"
+  AND
+  allomas="Felső";
 
 -- 13. feladat:
 SELECT
-  telepNev,
-  count(id) AS konyvtarDarab
+  min(vonatok.indulas) AS elso,
+  max(vonatok.indulas) AS utolso
 FROM
-  konyvtarak INNER JOIN telepulesek
-    ON konyvtarak.irsz=telepulesek.irsz
-GROUP BY
-  telepNev
-HAVING konyvtarDarab>=7;
+  vonatok INNER JOIN allomasok
+  ON vonatok.vegAll=allomasok.id
+WHERE
+  allomasok.allomasNev="Monor"
+  AND
+  vonatok.allomas="Alsó";
 
 -- 14. feladat:
 SELECT
-  megyeNev,
-  count(irsz) AS telepulesDarab 
+  vonatok.indulas,
+  vonatok.allomas,
+  vonatok.erkezIdo
 FROM
-  telepulesek INNER JOIN megyek
-    ON telepulesek.megyeId=megyek.id
+  vonatok INNER JOIN allomasok
+  ON vonatok.vegAll=allomasok.id
 WHERE
-  irsz NOT LIKE "1%"
-GROUP BY
-  megyeNev
+  allomasok.allomasNev="Szolnok"
 ORDER BY
-  telepulesDarab DESC;
-
+  vonatok.indulas
+LIMIT 5;
