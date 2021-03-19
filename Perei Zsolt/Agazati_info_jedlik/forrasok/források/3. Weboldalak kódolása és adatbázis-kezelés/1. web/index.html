@@ -158,9 +158,25 @@
                     </p>
             </div>
                 <!-- Legidősebb versenyző -->
-                
+                <div class="bg-black col-sm-12 col-md-4 p-3 text-center">
+                    <h3 class="bg-dark p-2 w-100">
+                        Legidősebb versenyző
+                    </h3>  
+                    <img src="img/louis_chiron.jpg" alt="Louis Chiron" width="100%"> 
+                    <p>
+                        Louis Chiron 58 évesen és 288 naposan állt rajthoz 1958-ban Monacoban.
+                    </p>
+            </div>               
                 <!-- Legtöbb Grand Prix -->
-
+                <div class="bg-black col-sm-12 col-md-4 p-3 text-center">
+                    <h3 class="bg-dark p-2 w-100">
+                        Legtöbb Grand Prix
+                    </h3>  
+                    <img src="img/monza_info.jpg" alt="Monza" width="100%"> 
+                    <p>
+                        1950 óta a legtöbb versenyt az olaszországi Monzában rendezték.
+                    </p>
+            </div>    
 
             </div>
         </section>
@@ -179,12 +195,13 @@
                             <option value=""></option>
                             <option value="HUN">Hungaroring</option>
                             <option value="MON">Monaco</option>
+                            <option value="ITA">Monza</option>
                             <option value="BEL">Spa-Francorchamps</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="laptime">1 kör ideje (másodpercben)</label>
-                        <input type="text" class="form-control" id="laptime" placeholder="pl.: 105.954" oninput="calculate()">
+                        <input type="number" class="form-control" id="laptime" placeholder="pl.: 105.954" oninput="calculate()">
                     </div>
 
                     <div class="form-group">
@@ -194,6 +211,7 @@
                 </form>
 
                 <script>
+                    showCircuit();
                 </script>
 
             </div>
@@ -206,7 +224,8 @@
     </audio>
 
     <footer class="text-right p-2">
-        Források: http://formula.uw.hu/f1tortenet.html, https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records
+        Források:
+        <a href="http://formula.uw.hu/f1tortenet.html">F1 történet</a>,<a href="https://en.wikipedia.org/wiki/List_of_Formula_One_driver_records">Wikipedia</a>
     </footer>
 
 
