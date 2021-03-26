@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Gyuri vagyok
+=======
+aaaa
+>>>>>>> 53ba1675c247c62b776de7c474624ca3c39f35c1
