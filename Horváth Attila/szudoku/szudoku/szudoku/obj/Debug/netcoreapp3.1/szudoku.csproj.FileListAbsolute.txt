@@ -1,0 +1,13 @@
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.exe
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.deps.json
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.runtimeconfig.json
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.runtimeconfig.dev.json
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.dll
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\bin\Debug\netcoreapp3.1\szudoku.pdb
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.csprojAssemblyReference.cache
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.AssemblyInfoInputs.cache
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.AssemblyInfo.cs
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.csproj.CoreCompileInputs.cache
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.dll
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.pdb
+C:\Users\teanf\Desktop\proggyak\12b1\Horváth Attila\szudoku\szudoku\szudoku\obj\Debug\netcoreapp3.1\szudoku.genruntimeconfig.cache
