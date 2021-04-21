@@ -2,40 +2,21 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NHL
+namespace NFL
 {
-  
+    
+
+
     class Jatekos
     {
         public String Név { get; set; }
         public int Yardok { get; set; }
-        public int Kisérletek { get; set; }
+        public int Kísérletek { get; set; }
         public int Passzok { get; set; }
-        public int TDK { get; set; }
+        public int TDk { get; set; }
         public int Eladott { get; set; }
-        public double mutató { get; set; }
+        public double Mutató { get; set; }
         public String Egyetem { get; set; }
-        public int YardMeter
-        {
-            get
-            {
-                return (int) Math.Round(Yardok * 0.9144);
-            }
-        }
-
-        public Jatekos(string sor) {
-            string[] adatok = sor.Split(';');
-            Név = adatok[0];
-            Yardok = int.Parse(adatok[1]);
-            Kisérletek = int.Parse(adatok[2]);
-            Passzok = int.Parse(adatok[3]);
-            TDK = int.Parse(adatok[4]);
-            Eladott = int.Parse(adatok[5]);
-            mutató = Konvertal(adatok[6]);
-            Egyetem = adatok[7];
-
-        }
-
         private double Konvertal(string iranyitoMutato)
         {
             var decimalSeparator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
