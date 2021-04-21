@@ -17,6 +17,26 @@ namespace NFL
         public int Eladott { get; set; }
         public double Mutató { get; set; }
         public String Egyetem { get; set; }
+        public int YardMeterben
+        {
+            get
+            {
+                return (int)Math.Round(Yardok * 0.9144);
+            }
+        }
+
+        public Jatekos(string sor)
+        {
+            string[] adatok = sor.Split(';');
+            Név = adatok[0];
+            Yardok = int.Parse(adatok[1]);
+            Kísérletek = int.Parse(adatok[2]);
+            Passzok = int.Parse(adatok[3]);
+            TDk = int.Parse(adatok[4]);
+            Eladott = int.Parse(adatok[5]);
+            Mutató = Konvertal(adatok[6]);
+            Egyetem = adatok[7];
+        }
         private double Konvertal(string iranyitoMutato)
         {
             var decimalSeparator = System.Globalization.CultureInfo.CurrentCulture.NumberFormat.NumberDecimalSeparator;
