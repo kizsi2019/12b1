@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sudokuCLI", "sudokuCLI\sudokuCLI.csproj", "{AC88B47B-AB37-4FCB-BF14-0B37C7837652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC88B47B-AB37-4FCB-BF14-0B37C7837652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC88B47B-AB37-4FCB-BF14-0B37C7837652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC88B47B-AB37-4FCB-BF14-0B37C7837652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC88B47B-AB37-4FCB-BF14-0B37C7837652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D859619-9340-429F-B7DA-0C219EF729B6}
+	EndGlobalSection
+EndGlobal

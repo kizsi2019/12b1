@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rjrFPlhOpDRk6ae78wRDQ5geakWo2MoIiV0HLs9r1m3kNZVy0mG4VO2v+m6SnEFgURamdsfQBSa7iOHGYlZa2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kizsi\\OneDrive\\Asztali gép\\Katonaa\\12b1\\12b1\\Kiss Zsigmond\\2021 próba érettségi Jedlik\\NFL\\NFL\\NFL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kizsi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
