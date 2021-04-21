@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\teanf\\Desktop\\proggyak\\12b1\\Horváth Attila\\2021 tanári feladat\\NHL\\NHL\\NHL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\teanf\\Desktop\\proggyak\\12b1\\Horváth Attila\\2021 tanári feladat\\NHL\\NHL\\NHL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\teanf\\Desktop\\proggyak\\12b1\\Horváth Attila\\2021 tanári feladat\\NHL\\NHL\\NHL.csproj",
+        "projectName": "NHL",
+        "projectPath": "C:\\Users\\teanf\\Desktop\\proggyak\\12b1\\Horváth Attila\\2021 tanári feladat\\NHL\\NHL\\NHL.csproj",
+        "packagesPath": "C:\\Users\\teanf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\teanf\\Desktop\\proggyak\\12b1\\Horváth Attila\\2021 tanári feladat\\NHL\\NHL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\teanf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
